@@ -1,0 +1,16 @@
+{
+  "manifest_version" : 2,
+  "name": "Rdio Now Playing",
+  "version": "1.0",
+  "description": "Shows the currently playing Rdio track in the tab/window title bar.",
+  "icons": {
+    "48" : "rdio-48.png",
+    "128" : "rdio-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*.rdio.com/"],
+      "js" : ["contentscript.js"]
+    }
+  ]
+}
