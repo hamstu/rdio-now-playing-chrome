@@ -12,4 +12,4 @@ Change log
 
 Screenshot
 ---
-![Bilby Stampede](http://labs.hami.sh/rdio/screenshot.png)
+![Screenshot of extension in action](http://labs.hami.sh/rdio/screenshot.png)
